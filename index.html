@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hilltop Market — Grocery, Butcher &amp; Liquor in Chula Vista</title>
+  <meta name="description" content="Neighborhood grocery and butcher at 1500 Hilltop Dr, Chula Vista. Carne asada, guacamole, produce, liquor, and Mobil on the corner. Open daily 6 AM–9 PM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,600;1,9..144,700&family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a href="#top" class="brand">
+        <span class="brand__mark"><span class="brand__hilltop">Hilltop</span> Market</span>
+        <span class="brand__addr">1500</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#meat">Meat</a>
+        <a href="#produce">Produce</a>
+        <a href="#liquor">Liquor</a>
+        <a href="#hours">Hours</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <div class="header__cta">
+        <a class="btn btn--primary" href="tel:+16194262200">Call</a>
+        <a class="btn btn--blue" href="https://www.google.com/maps/dir/?api=1&destination=1500+Hilltop+Dr+Chula+Vista+CA+91911" target="_blank" rel="noopener">Directions</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="top" style="background-image:url('images/01-storefront-hilltop-sign.jpg')">
+    <div class="wrap hero__content">
+      <p class="hero__addr">1500 Hilltop Dr · Chula Vista</p>
+      <h1>Hilltop<br>Market</h1>
+      <div class="hero__words" aria-label="Meat, Groceries, Produce, Liquor">
+        <span class="word--meat">Meat</span>
+        <span class="word--groceries">Groceries</span>
+        <span class="word--produce">Produce</span>
+        <span class="word--liquor">Liquor</span>
+      </div>
+      <p>Neighborhood grocery and butcher on the corner of Hilltop and Orange. The meat counter first. Then whatever you forgot.</p>
+      <div class="hero__row">
+        <span class="hours-chip" id="hoursChip"><span class="hours-chip__dot"></span><span id="hoursChipText">Open daily 6 AM – 9 PM</span></span>
+        <a class="btn btn--primary" href="https://www.google.com/maps/dir/?api=1&destination=1500+Hilltop+Dr+Chula+Vista+CA+91911" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn btn--ghost" href="tel:+16194262200">(619) 426-2200</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <p class="kicker">The house</p>
+        <h2>A corner market that still cuts your meat.</h2>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="lead">Hilltop Market is a family-run grocery and butcher in Otay, Chula Vista. People come for carne asada, house guacamole, and tortillas that are still warm in the cooler. They stay because someone at the counter already knows their order.</p>
+            <p>It is a small store packed tight — produce on the left, the meat case glowing on the right, liquor stacked to the ceiling behind the register. SNAP/EBT and cards are fine. The lot is right there. Thank you, we appreciate your business.</p>
+          </div>
+          <div class="about-photos">
+            <img src="images/20-storefront-entrance-oranges.jpg" alt="Hilltop Market entrance with bins of oranges out front">
+            <img src="images/09-checkout-liquor.jpg" alt="Checkout counter with the liquor wall behind it">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillar pillar--meat" id="meat">
+      <div class="pillar__inner">
+        <div class="pillar__copy">
+          <p class="kicker">The painted wall</p>
+          <h2>Meat</h2>
+          <p>Ranchera, arrachera, adobada, longaniza, tomahawk when they have it. Ask them to trim it, marinate it, or cut it for the weekend. This is why the neighborhood comes here.</p>
+          <div class="tags">
+            <span class="tag">Carne asada $5.99/lb</span>
+            <span class="tag">Adobada $3.99/lb</span>
+            <span class="tag">Tomahawk specials</span>
+          </div>
+        </div>
+        <div class="pillar__media">
+          <img class="span" src="images/07-meat-counter.jpg" alt="Meat case with steaks, longaniza, and handwritten specials">
+          <img src="images/13-butcher-ranchera.jpg" alt="USDA Prime ranchera on the butcher block">
+          <img src="images/27-marinated-adobada-chicken.jpg" alt="Marinated pork adobada and chicken in the case">
+        </div>
+      </div>
+    </section>
+
+    <section class="pillar pillar--groceries pillar--flip" id="groceries">
+      <div class="pillar__inner">
+        <div class="pillar__copy">
+          <p class="kicker">The painted wall</p>
+          <h2>Groceries</h2>
+          <p>A tight aisle that still has what you need: milk, eggs, chips, birria packets, Guerrero tortillas, the beans you actually cook with. Not ten brands of bread. The right ones.</p>
+          <div class="tags">
+            <span class="tag">Dairy &amp; eggs</span>
+            <span class="tag">Instant Birria</span>
+            <span class="tag">Everyday staples</span>
+          </div>
+        </div>
+        <div class="pillar__media">
+          <img class="span" src="images/03-aisle-grocery.jpg" alt="Grocery aisle with condiments, chips, and a beer cooler at the end">
+          <img src="images/05-fridge-dairy-produce.jpg" alt="Butter, eggs, and greens in the dairy case">
+          <img src="images/23-snacks-ramen-liquor.jpg" alt="Ramen, candy, and liquor shelves">
+        </div>
+      </div>
+    </section>
+
+    <section class="pillar pillar--produce" id="produce">
+      <div class="pillar__inner">
+        <div class="pillar__copy">
+          <p class="kicker">The painted wall</p>
+          <h2>Produce</h2>
+          <p>Limes, lemons, chile, cabbage, cilantro — the stuff that goes next to the meat. Oranges and potatoes sit in bins on the sidewalk when the sun is out.</p>
+          <div class="tags">
+            <span class="tag">Citrus &amp; chiles</span>
+            <span class="tag">Greens</span>
+            <span class="tag">Bins out front</span>
+          </div>
+        </div>
+        <div class="pillar__media">
+          <img class="span" src="images/04-aisle-produce.jpg" alt="Produce aisle with limes, lemons, and leafy greens">
+          <img src="images/21-produce-and-meat-counter.jpg" alt="Produce fridge looking toward the meat counter">
+          <img src="images/02-storefront-entrance.jpg" alt="Outdoor bins of oranges and potatoes at the entrance">
+        </div>
+      </div>
+    </section>
+
+    <section class="pillar pillar--liquor pillar--flip" id="liquor">
+      <div class="pillar__inner">
+        <div class="pillar__copy">
+          <p class="kicker">The painted wall</p>
+          <h2>Liquor</h2>
+          <p>A full wall behind the register — tequila, whiskey, cold beer, the bottle you need for Saturday. Lottery in the window. Ice chest outside.</p>
+          <div class="tags">
+            <span class="tag">Fine wine &amp; liquor</span>
+            <span class="tag">Cold beer</span>
+            <span class="tag">Lottery</span>
+          </div>
+        </div>
+        <div class="pillar__media">
+          <img class="span" src="images/09-checkout-liquor.jpg" alt="Cashier at the register in front of a floor-to-ceiling liquor wall">
+          <img src="images/15-liquor-moet.jpg" alt="Moët champagne on the checkout counter">
+          <img src="images/32-score-tequila-soccer.jpg" alt="Score tequila soccer-ball bottle on the counter">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper" id="specials">
+      <div class="wrap">
+        <p class="kicker">What people drive for</p>
+        <h2>House specialties</h2>
+        <p class="lead">Not a printed menu. The things regulars already know to grab.</p>
+        <div class="spec-grid">
+          <article class="spec">
+            <img src="images/19-salsa-guacamole-ceviche.jpg" alt="House guacamole, salsa, and ceviche in the fridge">
+            <div class="spec__body">
+              <h3>Guacamole, salsa, ceviche</h3>
+              <p>Made here. Regular or spicy. Shrimp and crab when they have it.</p>
+              <span class="price">Guac 8oz $5.99 · 16oz $9.99</span>
+            </div>
+          </article>
+          <article class="spec">
+            <img src="images/14-tortillas-cooler.jpg" alt="La Selecta corn tortillas packed in a cooler">
+            <div class="spec__body">
+              <h3>Tortillas</h3>
+              <p>Corn and flour stacked by the meat case. Santa Fe, Bodo’s, La Selecta.</p>
+              <span class="price">Ask what’s warm</span>
+            </div>
+          </article>
+          <article class="spec">
+            <img src="images/36-tomahawk-steaks.jpg" alt="Fresh-cut tomahawk steaks on the butcher block">
+            <div class="spec__body">
+              <h3>Weekend carne asada</h3>
+              <p>Paleta, arrachera, adobada. Tell them how many people. They’ll cut it.</p>
+              <span class="price">Paleta para asar $5.99/lb</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <p class="kicker">Inside the store</p>
+        <h2>The market, as it is</h2>
+        <p class="lead">No stock photos. These are from the shop.</p>
+        <div class="gallery">
+          <img src="images/08-meat-prepared-tortillas.jpg" alt="Prepared meats and corn tortillas">
+          <img src="images/06-fridge-guacamole-ceviche.jpg" alt="Guacamole and cheese refrigerator">
+          <img src="images/10-chips-tostadas.jpg" alt="Tortilla chips and tostadas on a wooden shelf">
+          <img src="images/11-seasonings-birria.jpg" alt="Instant Birria seasoning on the shelf">
+          <img src="images/17-flour-tortillas-carne-asada.jpg" alt="Flour tortillas next to the carne asada case">
+          <img src="images/26-bone-in-ribeye.jpg" alt="Bone-in ribeyes garnished with kale">
+          <img src="images/12-checkout-pinones.jpg" alt="Hilltop Market meat department labels on piñones">
+          <img src="images/25-storefront-ice-atm.jpg" alt="Packaged ice chest and ATM on the storefront">
+          <img src="images/24-ebt-atm-produce-sign.jpg" alt="EBT cash ATM and fresh produce window sign">
+          <img src="images/18-instant-birria-packets.jpg" alt="Instant Birria spice packets">
+          <img src="images/34-arrachera-cutting-board.jpg" alt="Sliced arrachera on the cutting board">
+          <img src="images/40-pinones-stack.jpg" alt="Stacked containers of piñones on the counter">
+        </div>
+        <p class="lead" style="margin-top:1.4rem">More from the shop on
+          <a href="https://www.instagram.com/hilltop_market/" target="_blank" rel="noopener">@hilltop_market</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="pillar" id="fuel">
+      <div class="fuel">
+        <img src="images/22-mobil-pumps-hilltop-orange.jpg" alt="Mobil pumps at Hilltop Drive and East Orange Avenue">
+        <div class="fuel__copy">
+          <span class="mobil-chip">Mobil</span>
+          <p class="kicker">On the lot</p>
+          <h2>Gas on the corner.</h2>
+          <p class="lead">Mobil at Hilltop and East Orange. Park, pump, walk in. Ice machine and EBT ATM sit on the white wall under the red letters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper" id="hours">
+      <div class="wrap">
+        <p class="kicker">Come by</p>
+        <h2>Hours &amp; visit</h2>
+        <div class="visit" id="visit">
+          <div class="visit-card">
+            <h3>Every day</h3>
+            <div class="hours-line"><span>Monday – Sunday</span><span>6:00 AM – 9:00 PM</span></div>
+            <p style="margin-top:1rem"><strong>1500 Hilltop Dr</strong><br>Chula Vista, CA 91911<br>Hilltop &amp; East Orange</p>
+            <p style="margin:.7rem 0"><a href="tel:+16194262200">(619) 426-2200</a></p>
+            <div class="facts">
+              <span class="fact">SNAP / EBT</span>
+              <span class="fact">Credit cards</span>
+              <span class="fact">On-site parking</span>
+              <span class="fact">ATM</span>
+              <span class="fact">Packaged ice</span>
+              <span class="fact">Lottery</span>
+            </div>
+            <div class="hero__row">
+              <a class="btn btn--primary" href="tel:+16194262200">Call the store</a>
+              <a class="btn btn--blue" href="https://www.google.com/maps/dir/?api=1&destination=1500+Hilltop+Dr+Chula+Vista+CA+91911" target="_blank" rel="noopener">Get directions</a>
+            </div>
+            <p class="thanks">Thank you, we appreciate your business.</p>
+          </div>
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps?q=Hilltop+Market+%26+Exxon+Mobil,+1500+Hilltop+Dr,+Chula+Vista,+CA+91911&amp;ll=32.5997004,-117.0519332&amp;z=17&amp;output=embed"
+            title="Map of Hilltop Market at 1500 Hilltop Drive, Chula Vista"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <small>© 2026 Hilltop Market · 1500 Hilltop Dr, Chula Vista, CA 91911 · Mobil on the lot</small>
+      <div>
+        <a href="https://www.instagram.com/hilltop_market/" target="_blank" rel="noopener">Instagram</a>
+        ·
+        <a href="tel:+16194262200">(619) 426-2200</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById("nav");
+    const toggle = document.getElementById("navToggle");
+    toggle.addEventListener("click", () => nav.classList.toggle("open"));
+    nav.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => nav.classList.remove("open")));
+
+    function storeStatus() {
+      const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/Los_Angeles",
+        hour: "numeric",
+        minute: "numeric",
+        hourCycle: "h23"
+      }).formatToParts(new Date());
+      const hour = Number(parts.find((p) => p.type === "hour").value);
+      const minute = Number(parts.find((p) => p.type === "minute").value);
+      const mins = hour * 60 + minute;
+      const open = mins >= 6 * 60 && mins < 21 * 60;
+      const chip = document.getElementById("hoursChip");
+      const text = document.getElementById("hoursChipText");
+      chip.classList.toggle("is-closed", !open);
+      text.textContent = open ? "Open · Closes 9 PM" : "Closed · Opens 6 AM";
+    }
+    storeStatus();
+  </script>
+</body>
+</html>

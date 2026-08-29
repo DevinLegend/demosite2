@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meat — Hilltop Market Butcher Counter</title>
+  <meta name="description" content="The butcher counter at Hilltop Market in Chula Vista. Carne asada, ranchera, arrachera, adobada, tomahawk." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="brand.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="brand"><span class="brand__mark">Hilltop Market</span></a>
+      <nav class="nav" id="nav">
+        <a href="meat.html" aria-current="page">Meat</a>
+        <a href="index.html">Home</a>
+        <a class="nav__call" href="tel:+16194262200">Call</a>
+        <a class="nav__call" href="https://www.google.com/maps/dir/?api=1&destination=1500+Hilltop+Dr+Chula+Vista+CA+91911" target="_blank" rel="noopener">Directions</a>
+      </nav>
+      <div class="header__cta">
+        <a href="tel:+16194262200">Call</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=1500+Hilltop+Dr+Chula+Vista+CA+91911" target="_blank" rel="noopener">Directions</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="stage" id="stage">
+    <div class="stage__pin">
+      <div class="stage__scene">
+        <canvas id="stageCanvas" class="stage__canvas" aria-label="3D tomahawk steak spinning on the bone"></canvas>
+      </div>
+      <p class="stage__label" id="stageLabel">Tomahawk</p>
+      <p class="stage__hint">Scroll</p>
+    </div>
+  </section>
+
+  <section class="meat-intro">
+    <p class="kicker">The butcher counter</p>
+    <h2>Tell them how many people. They’ll cut it.</h2>
+    <p class="lead">Ranchera, arrachera, adobada, longaniza, tomahawk when they have it. Prices move. What’s on the glass today is what they have.</p>
+  </section>
+
+  <article class="cut">
+    <img src="images/13-butcher-ranchera.jpg" alt="USDA Prime ranchera on the butcher block">
+    <div class="cut__bar">
+      <div class="wrap">
+        <h3>Ranchera</h3>
+        <p>USDA Prime on the board. Thin-cut, heavy marble.</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="cut">
+    <img src="images/34-arrachera-cutting-board.jpg" alt="Arrachera on the cutting board">
+    <div class="cut__bar">
+      <div class="wrap">
+        <h3>Arrachera</h3>
+        <p>Flap meat, thin. They’ll leave it plain or dress it.</p>
+        <span class="price">Arrachera $12.99/lb</span>
+      </div>
+    </div>
+  </article>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <small>© 2026 Hilltop Market · 1500 Hilltop Dr, Chula Vista</small>
+      <a href="tel:+16194262200">(619) 426-2200</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.160.1/build/three.min.js"></script>
+  <script src="site.js"></script>
+  <script src="stage.js"></script>
+</body>
+</html>
